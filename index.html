@@ -6,7 +6,14 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Open+Sans:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body style="display:flex;align-items:center;justify-content: center;background-color: black;height:100vh;">
-  <img src="vibing.gif" alt="Vibing Cat">
+<body style="display:flex;align-items:center;justify-content: center;background-color: black;height:100vh;flex-direction:column;">
+  <video controls autoplay>
+    <source src="vibing-cat.mp4" type="video/mp4">
+  </video>
+
+  <script>
+    var audio = new Audio('audio_file.mp3');
+    audio.play();
+  </script>
 </body>
 </html>
